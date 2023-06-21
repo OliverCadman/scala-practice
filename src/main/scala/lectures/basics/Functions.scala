@@ -52,7 +52,7 @@ object Functions extends App {
 
 
   // TASK 2
-  def factorialTailRec(n: Int) = {
+  def factorialTailRec(n: Int): BigInt = {
     @scala.annotation.tailrec
     def go(x: Int, acc: BigInt): BigInt = {
       if (x <= 0) acc
